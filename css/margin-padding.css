@@ -1,0 +1,21 @@
+* { 
+-moz-box-sizing: border-box; 
+-webkit-box-sizing: border-box; 
+box-sizing: border-box;
+}
+
+.cf:before, .cf:after{  
+ content: " ";
+ display: table;
+}
+.cf:after { 
+ clear: both;
+}
+
+
+.container { background: red; width: 980px; margin:0px auto;}
+
+.cnt-hidden { background: white; float:left; }
+.cnt-none { background:#000; float:right; }
+
+.cont-texto { clear:both;} 
